@@ -61,22 +61,13 @@
     cursor: pointer;
 }
 
-.showcase .background img {
+.showcase .background {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-size: cover;
-    opacity: 0.8;
-}
-
-.slider-img img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    background-image: url(img/bromo.jpg);
     background-size: cover;
     opacity: 0.8;
 }
@@ -190,6 +181,9 @@
     color: aqua;
 }
 
+
+/* Responsive mobile */
+
 @media (max-width: 798px) {
     .showcase,
     .showcase header {
@@ -205,5 +199,8 @@
     .text h3 {
         font-size: 2em;
         line-height: 1em;
+    }
+    .showcase .background {
+        background-position: center;
     }
 }
