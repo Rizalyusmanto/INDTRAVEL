@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>INDTRAVEL Landing Page</title>
+</head>
+
+<body>
+    <!-- Showcase -->
+    <div class="showcase">
+        <header>
+            <div class="logo">INDTravel</div>
+            <div class="toggle"></div>
+        </header>
+        <div class="background"><img src="img/bromo.jpg" alt="bromo" /></div>
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring indonesia</h3>
+            <p>Pack your bags. We’re going on vacation!</p>
+            <a href="#">Explore</a>
+        </div>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="#"><img src="img/facebook.png" alt="" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/twitter.png" alt="" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/instagram.png" alt="" /></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Showcase -->
+
+    <!-- Menu -->
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <!-- End Menu -->
+</body>
+
+<script>
+    const menuToggle = document.querySelector('.toggle');
+    const showCase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showCase.classList.toggle('active');
+    });
+</script>
+
+</html>
