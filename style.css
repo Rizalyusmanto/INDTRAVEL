@@ -69,6 +69,7 @@
     height: 100%;
     background-image: url(img/bromo.jpg);
     background-size: cover;
+    background-position: center;
     opacity: 0.8;
 }
 
@@ -199,8 +200,5 @@
     .text h3 {
         font-size: 2em;
         line-height: 1em;
-    }
-    .showcase .background {
-        background-position: center;
     }
 }
